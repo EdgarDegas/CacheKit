@@ -1,0 +1,6 @@
+.DS_Store
+CacheKit.xcodeproj/xcshareddata
+CacheKit.xcodeproj/xcuserdata
+CacheKit.xcodeproj/project.xcworkspace/xcshareddata
+CacheKit.xcodeproj/project.xcworkspace/xcuserdata
+.swiftpm
