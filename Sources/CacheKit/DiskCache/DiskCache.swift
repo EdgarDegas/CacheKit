@@ -238,7 +238,7 @@ open class DiskCache<
         fileStorage.emptyTrash()
         try? remove(
             trimInfo.objectsToRemove(
-                from: database.lessRecentlyAccessedObjects(limit: .max),
+                from: database.lessRecentlyAccessedObjects(limit: trimBatchSize),
                 currentSize: size,
                 availableCapacity: availableCapacity ?? .max)
             .map(\.key)
@@ -253,6 +253,10 @@ open class DiskCache<
 
 
 private extension DiskCache {
+    var trimBatchSize: Int {
+        100
+    }
+    
     func md5String(of string: String) -> String {
         let data = string.data(using: .utf8)!
         return Insecure.MD5.hash(data: data)
