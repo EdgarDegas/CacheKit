@@ -8,7 +8,7 @@
 import Foundation
 
 extension MemoryCache {
-    struct TrimInfo: TrimInfoProtocol {
+    public struct TrimInfo: TrimInfoProtocol {
         var autoTrimInterval: TimeInterval = 5
         var sizeLimit: Int = .max
         var countLimit: Int = .max

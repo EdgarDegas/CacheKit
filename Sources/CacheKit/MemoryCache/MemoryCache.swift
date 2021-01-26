@@ -19,6 +19,8 @@ open class MemoryCache: Trimable, AnyObjectStoring {
     
     public var removeAllWhenIntoBackground: Bool = true
     
+    public var trimInfo = TrimInfo()
+    
     public init(name: String) {
         self.name = name
         beginObservingNotifications(from: notificationCenter)
@@ -117,8 +119,6 @@ open class MemoryCache: Trimable, AnyObjectStoring {
     
     // MARK: internal
     typealias Map = LinkedMap
-    
-    var trimInfo = TrimInfo()
     
     var trimQueue = DispatchQueue(
         label: .uniqueID(suffixedBy: "MemoryCache.TrimQueue"))

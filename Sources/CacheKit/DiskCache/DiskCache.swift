@@ -23,6 +23,8 @@ open class DiskCache<
 {
     // MARK: - Public
     
+    public var trimInfo = TrimInfo()
+    
     public static var filesDirectoryName: String {
         FileStorage.filesDirectoryName
     }
@@ -231,8 +233,6 @@ open class DiskCache<
     
     /// The file manager that disk cache uses to create the directory.
     var fileManager: FileManager = .default
-    
-    let trimInfo = TrimInfo()
     
     func performTrim(with trimInfo: TrimInfo) {
         fileStorage.emptyTrash()

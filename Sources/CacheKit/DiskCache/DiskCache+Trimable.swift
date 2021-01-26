@@ -8,7 +8,7 @@
 import Foundation
 
 extension DiskCache {
-    struct TrimInfo: TrimInfoProtocol {
+    public struct TrimInfo: TrimInfoProtocol {
         var autoTrimInterval: TimeInterval = 60
         var sizeLimit = Int.max
         var countLimit = Int.max
