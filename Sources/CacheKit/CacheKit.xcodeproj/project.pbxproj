@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1351F84F25A703D8002D914F /* DiskCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313CE202570DAFB00A57DCB /* DiskCacheTests.swift */; };
-		1351F85825A848CE002D914F /* Throwable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1351F85225A848C9002D914F /* Throwable.swift */; };
 		B30774562576164C00C315ED /* Trimable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30774552576164B00C315ED /* Trimable.swift */; };
 		B307745A2576167200C315ED /* ObjectStoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30774592576167200C315ED /* ObjectStoring.swift */; };
 		B307745E257616B900C315ED /* LinkedMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B307745D257616B900C315ED /* LinkedMap.swift */; };
@@ -26,17 +25,15 @@
 		B33DFFE4259A16F9008A3402 /* DatabaseObjectSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33DFFE3259A16F9008A3402 /* DatabaseObjectSequence.swift */; };
 		B3765BB82594995700159833 /* FMDB in Frameworks */ = {isa = PBXBuildFile; productRef = B3765BB72594995700159833 /* FMDB */; };
 		B3765BBE2594999D00159833 /* SQLiteObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3765BBD2594999D00159833 /* SQLiteObject.swift */; };
+		B377B70F25C072BB000F93E2 /* Throwable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1351F85225A848C9002D914F /* Throwable.swift */; };
+		B377B71425C072C3000F93E2 /* FileManagerWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D5F5B02589F16D009F8B71 /* FileManagerWrapperTests.swift */; };
 		B38A8F51256CCF8A00A91CCE /* CacheKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38A8F47256CCF8A00A91CCE /* CacheKit.framework */; };
 		B38A8F56256CCF8A00A91CCE /* CacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A8F55256CCF8A00A91CCE /* CacheTests.swift */; };
 		B38A8F58256CCF8A00A91CCE /* Cache.h in Headers */ = {isa = PBXBuildFile; fileRef = B38A8F4A256CCF8A00A91CCE /* Cache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B38A8F64256CCFBA00A91CCE /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A8F63256CCFBA00A91CCE /* Cache.swift */; };
 		B38A8F69256CDCCA00A91CCE /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A8F68256CDCCA00A91CCE /* URLs.swift */; };
 		B38A8F6F256CE94000A91CCE /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A8F6E256CE94000A91CCE /* DiskCache.swift */; };
-		B39379D625C02EED00CDFB39 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B39379D425C02EED00CDFB39 /* LICENSE */; };
-		B39379D725C02EED00CDFB39 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B39379D525C02EED00CDFB39 /* README.md */; };
-		B39379DF25C0306F00CDFB39 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39379DE25C0306F00CDFB39 /* Package.swift */; };
 		B39FAAC425A99CA000BA39B2 /* FileStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FAAC325A99CA000BA39B2 /* FileStorageProtocol.swift */; };
-		B39FAACB25AF44C200BA39B2 /* FileManagerWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D5F5B02589F16D009F8B71 /* FileManagerWrapperTests.swift */; };
 		B39FAAD425B1E15600BA39B2 /* TestLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FAAD025B1E0E700BA39B2 /* TestLogger.swift */; };
 		B39FAAE125B5822300BA39B2 /* TestFMDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FAADB25B581FF00BA39B2 /* TestFMDatabase.swift */; };
 		B39FAAE725B5ADDF00BA39B2 /* TestFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39FAAE625B5ADDF00BA39B2 /* TestFileManager.swift */; };
@@ -91,9 +88,6 @@
 		B38A8F63256CCFBA00A91CCE /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 		B38A8F68256CDCCA00A91CCE /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
 		B38A8F6E256CE94000A91CCE /* DiskCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskCache.swift; sourceTree = "<group>"; };
-		B39379D425C02EED00CDFB39 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B39379D525C02EED00CDFB39 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B39379DE25C0306F00CDFB39 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		B39FAAC325A99CA000BA39B2 /* FileStorageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorageProtocol.swift; sourceTree = "<group>"; };
 		B39FAAD025B1E0E700BA39B2 /* TestLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLogger.swift; sourceTree = "<group>"; };
 		B39FAADB25B581FF00BA39B2 /* TestFMDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFMDatabase.swift; sourceTree = "<group>"; };
@@ -173,10 +167,7 @@
 		B38A8F3D256CCF8A00A91CCE = {
 			isa = PBXGroup;
 			children = (
-				B39379D425C02EED00CDFB39 /* LICENSE */,
-				B39379D525C02EED00CDFB39 /* README.md */,
-				B39379DE25C0306F00CDFB39 /* Package.swift */,
-				B38A8F49256CCF8A00A91CCE /* Source */,
+				B38A8F49256CCF8A00A91CCE /* CacheKit */,
 				B38A8F54256CCF8A00A91CCE /* Tests */,
 				B38A8F48256CCF8A00A91CCE /* Products */,
 			);
@@ -191,7 +182,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B38A8F49256CCF8A00A91CCE /* Source */ = {
+		B38A8F49256CCF8A00A91CCE /* CacheKit */ = {
 			isa = PBXGroup;
 			children = (
 				B38A8F4A256CCF8A00A91CCE /* Cache.h */,
@@ -203,7 +194,7 @@
 				B39379D125C02DBC00CDFB39 /* ObjectStoring */,
 				B38A8F7A256CFCD200A91CCE /* Supporting */,
 			);
-			path = Source;
+			name = CacheKit;
 			sourceTree = "<group>";
 		};
 		B38A8F54256CCF8A00A91CCE /* Tests */ = {
@@ -223,7 +214,8 @@
 				B39FAAF425B5BA7900BA39B2 /* TrimableTests.swift */,
 				B38A8F57256CCF8A00A91CCE /* Info.plist */,
 			);
-			path = Tests;
+			name = Tests;
+			path = ../../Tests;
 			sourceTree = "<group>";
 		};
 		B38A8F7A256CFCD200A91CCE /* Supporting */ = {
@@ -346,8 +338,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B39379D725C02EED00CDFB39 /* README.md in Resources */,
-				B39379D625C02EED00CDFB39 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +376,6 @@
 				B3154261258F8F2A000B3756 /* DatabaseObjectProtocol.swift in Sources */,
 				B3A2FDB0259B6A47002AFBA3 /* AnyObjectStoring.swift in Sources */,
 				B315427225920139000B3756 /* ByteSizeMeasurable.swift in Sources */,
-				B39379DF25C0306F00CDFB39 /* Package.swift in Sources */,
 				B307746A25779F2C00C315ED /* InitializableFromURL.swift in Sources */,
 				B3A2FDA8259B5D9F002AFBA3 /* DiskCache+Trimable.swift in Sources */,
 				B3A2FDAC259B6A17002AFBA3 /* CodableObjectStoring.swift in Sources */,
@@ -402,14 +391,14 @@
 				B38A8F56256CCF8A00A91CCE /* CacheTests.swift in Sources */,
 				B39FAAF525B5BA7900BA39B2 /* TrimableTests.swift in Sources */,
 				1351F84F25A703D8002D914F /* DiskCacheTests.swift in Sources */,
+				B377B71425C072C3000F93E2 /* FileManagerWrapperTests.swift in Sources */,
 				B33DFFD82599E568008A3402 /* DatabaseProtocolTests.swift in Sources */,
 				B39FAAFB25B8877700BA39B2 /* MemoryCacheTests.swift in Sources */,
 				B39FAAEF25B5AE5800BA39B2 /* TestCoder.swift in Sources */,
 				B39FAAE725B5ADDF00BA39B2 /* TestFileManager.swift in Sources */,
 				B39FAAD425B1E15600BA39B2 /* TestLogger.swift in Sources */,
-				B39FAACB25AF44C200BA39B2 /* FileManagerWrapperTests.swift in Sources */,
 				B39FAAE125B5822300BA39B2 /* TestFMDatabase.swift in Sources */,
-				1351F85825A848CE002D914F /* Throwable.swift in Sources */,
+				B377B70F25C072BB000F93E2 /* Throwable.swift in Sources */,
 				B39FAB0525BF0E4900BA39B2 /* LinkedMapTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,7 +546,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CacheKit/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -584,7 +573,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CacheKit/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -606,7 +595,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GVYB79VSRG;
-				INFOPLIST_FILE = CacheTests/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -625,7 +614,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GVYB79VSRG;
-				INFOPLIST_FILE = CacheTests/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
