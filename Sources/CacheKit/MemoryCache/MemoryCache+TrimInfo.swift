@@ -9,10 +9,10 @@ import Foundation
 
 extension MemoryCache {
     public struct TrimInfo: TrimInfoProtocol {
-        var autoTrimInterval: TimeInterval = 5
-        var sizeLimit: Int = .max
-        var countLimit: Int = .max
-        var ageLimit: Int = .max
+        public var autoTrimInterval: TimeInterval = 5
+        public var sizeLimit: Int = .max
+        public var countLimit: Int = .max
+        public var ageLimit: Int = .max
         
         func nodesToRemove(
             from linkedMap: LinkedMap

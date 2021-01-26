@@ -9,11 +9,11 @@ import Foundation
 
 extension DiskCache {
     public struct TrimInfo: TrimInfoProtocol {
-        var autoTrimInterval: TimeInterval = 60
-        var sizeLimit = Int.max
-        var countLimit = Int.max
-        var ageLimit = Int.max
-        var freeDiskSpace: Int = 0
+        public var autoTrimInterval: TimeInterval = 60
+        public var sizeLimit = Int.max
+        public var countLimit = Int.max
+        public var ageLimit = Int.max
+        public var freeDiskSpace: Int = 0
         
         /// Returns an as-small-as-posible amount of objects to remove in a trim operation.
         func objectsToRemove<RealmItems: DatabaseObjectSequence>(
